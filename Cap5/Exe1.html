@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cap 5 Exe 1</title>
+    <style>
+      * {
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
+        float: left;
+      }
+
+      div {
+        background-color: orange;
+      }
+
+      div + div {
+        background-color: yellowgreen;
+      }
+      .sep {
+        width: 100%;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div>
+        <h2>Resposta:</h2>
+        <label class="sep"
+          >Quando acontece do tamnho dos elementos da linha ultrapasar 100% do
+          tamanho da mesma, os objetos que tem sua largura acima dos 100% eh
+          jogado para a linha de baixo.</label
+        >
+        <h2>Exemplo:</h2>
+      </div>
+
+      <label class="sep">Dois objetos que somados dao 100% ou menos</label>
+      <div style="width: 50%">
+        <p>50% da pagina</p>
+      </div>
+      <div style="width: 50%">
+        <p>50% da pagina</p>
+      </div>
+      <label class="sep">Dois objetos que somados dao mais de 100%</label>
+      <div style="width: 50%">
+        <p>50% da pagina</p>
+      </div>
+      <div style="width: 51%">
+        <p>51% da pagina</p>
+      </div>
+    </main>
+  </body>
+</html>

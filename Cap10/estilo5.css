@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+button {
+  display: block;
+}
+/*A)*/
+label span {
+  color: aquamarine;
+}
+/*B)*/
+div + div {
+  background-color: lightcoral;
+}
+/*C)*/
+#divConteudo div:first-child {
+  background-color: coral;
+}

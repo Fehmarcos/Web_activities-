@@ -1,0 +1,15 @@
+* {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+td {
+  border: solid 1px;
+  padding: 1px 3px;
+}
+.LPar {
+  background-color: white;
+}
+.LInpar {
+  background-color: gray;
+}

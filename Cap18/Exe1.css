@@ -1,0 +1,29 @@
+* {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+div {
+  display: grid;
+}
+#foco {
+  width: 98%;
+  margin: 1px 1%;
+  grid-template-columns: 100%;
+  align-items: center;
+  justify-items: center;
+}
+#foco img {
+  width: 99%;
+  margin: 1%;
+}
+#lista {
+  width: 100%;
+  margin: 1px;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+#lista img {
+  margin: 1%;
+  float: left;
+  width: 99%;
+}
